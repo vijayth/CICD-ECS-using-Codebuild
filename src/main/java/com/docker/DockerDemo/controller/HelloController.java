@@ -12,7 +12,7 @@ public class HelloController {
 
 	@RequestMapping(path = "/greeting", method = RequestMethod.GET)
 	public Greeting sayHello(@RequestParam String name) {
-		String message = "Welcome to Amazon AWS Proserve " + name;
+		String message = "Welcome to Amazon AWS Proserve LLP " + name;
 		Greeting dto = new Greeting();
 		dto.setMessage(message);
 		return dto;
