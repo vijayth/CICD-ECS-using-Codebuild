@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: java-microservice-container 
-        image: public.ecr.aws/y5w1w4s9/eks:latest
+        image: 077705026938.dkr.ecr.us-east-1.amazonaws.com/eks:latest
         ports:
         - containerPort: 8080
 ---
